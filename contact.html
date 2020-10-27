@@ -1,55 +1,61 @@
 <html>
-    <head>
-    <meta charset="utf-8">
-        <title>Galzotech</title>
-        <link rel="shortcut icon" href="images/icon.png">
-        <link rel="stylesheet" type="text/css" href="css/style2.css"/>
-    </head>
-    <body>
-       
+
+<head>
+	<meta charset="utf-8">
+	<title>Galzotech</title>
+	<link rel="shortcut icon" href="images/icon.png">
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+</head>
+
+<body>
+
 	<section id="main">
-        
-        <nav>
-        
-        <a href="index.html" class="logo">GALZOTECH</a>
-        
-        <div class="toggle"></div>
-        <ul class="menu">
-        <li class="active"><a href="index.html" >Home</a></li>	
-        <li><a href="aboutme.html">About Me</a></li>	
-        <li><a href="service.html">Services</a></li>			
-        <li><a href="#contact-form">Contact</a></li>	
-        </ul>
-        </nav>
-        <section id="contact-form">
-            <form>
-            
-            <div class="contact-left">
-            <h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Write</font> us</h1>
-            
-            <div class="f-name">
-            <font >Name</font>
-            <input type="text" placeholder="Full Name"/>
+
+		<nav>
+
+			<a href="index.html" class="logo">GALZOTECH</a>
+
+			<div class="toggle"></div>
+			<ul class="menu">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="#contact-form">Contact</a></li>
+			</ul>
+		</nav>
+		<section id="contact-form">
+			<form>
+
+				<div class="contact-left">
+					<h1 class="c-l-heading">
+						<font style="border-bottom: 3px solid #1ED98B;">Write</font> us
+					</h1>
+
+					<div class="f-name">
+						<font>Name</font>
+						<input type="text" id="name" placeholder="Full Name"/>
             </div>
-            
-            <div class="f-email">
-            <font >Email</font>
-            <input type="email" placeholder="Example@gmail.com"/>
+
+						<div class="f-email">
+							<font>Email</font>
+							<input type="email"id="email"placeholder="Example@gmail.com"/>
             </div>
-            </div>
-            
-            <div class="contact-right">
-            
-            <div class="message">
-            <font >Message</font>
-            <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
-            </div>
-            
-            <button>submit</button>
-            </div>
-                
-            </form>
-            
-            </section>
-    </body>
+						</div>
+
+						<div class="contact-right">
+
+							<div class="message">
+								<font>Message</font>
+								<textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+							</div>
+
+							<input type="button" class="signup-btn" value="submit" onclick="Submitform()">
+						</div>
+
+			</form>
+
+		</section>
+</body>
+
 </html>
